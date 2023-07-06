@@ -6,7 +6,7 @@ from component import Component
 
 
 class MockCamera(Component):
-    def __init__(self, image_path, fps=30):
+    def __init__(self, image_path, fps=14):
         super().__init__(name="MockCamera")
         self._image_path = image_path
         self._fps = fps

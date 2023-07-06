@@ -12,4 +12,4 @@ class Debugger(Component):
         pass
 
     def on_data(self, data):
-        print("Debugger", data)
+        print("Debugger", data['frame_count'])
